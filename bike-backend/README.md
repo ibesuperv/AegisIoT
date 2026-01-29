@@ -171,7 +171,7 @@ When running the mobile app on a physical device, `localhost` refers to the devi
 2.  **Configure Frontend API**
     ```javascript
     // In your React Native config
-    export const API_BASE_URL = "http://192.168.1.15:3000/api";
+    export const API_BASE_URL = "http://192.168.1.15:3000/";
     ```
 
 3.  **Network Firewall**
