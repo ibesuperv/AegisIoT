@@ -147,7 +147,13 @@ The app uses a smart configuration file (`constants/api.js`) to automatically sw
     *If you don't do this, the app will not reach the backend from your phone.*
 
 ### Firebase
-Firebase configuration is located in `constants/firebase.js`. Ensure your keys match your Firebase project.
+The project requires a Firebase configuration file to connect to the backend services.
+
+1.  **Download** the `firebase.js` file (provided separately).
+2.  **Place it** inside the `constants/` folder:
+    ```
+    bike-mobile/constants/firebase.js
+    ```
 
 ---
 

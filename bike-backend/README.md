@@ -139,7 +139,15 @@ src/
     FIREBASE_DATABASE_URL=https://your-project.firebaseio.com
     ```
 
-3.  **Run Server**
+3.  **Firebase Admin SDK**
+    *   Download the `firebase.json` file (provided separately).
+    *   Place it inside the config folder:
+        ```bash
+        src/config/firebase.json
+        ```
+    *   *Note: This file contains sensitive secrets and is excluded from git.*
+
+4.  **Run Server**
     ```bash
     # Development
     npm run dev
