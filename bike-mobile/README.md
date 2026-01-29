@@ -84,12 +84,14 @@ graph LR;
 
 ## 🛠 Tech Stack
 
--   **Framework**: [Expo](https://expo.dev/) (React Native)
--   **Navigation**: Expo Router (File-system based routing)
--   **State Management**: [Zustand](https://github.com/pmndrs/zustand) (Simple, scalable store)
--   **Maps**: `react-native-maps`
--   **Storage**: `AsyncStorage` (Session persistence)
--   **Styling**: StyleSheet + Custom Design System
+| Component | Technology | Reasoning |
+| :--- | :--- | :--- |
+| **Framework** | **Expo (React Native)** | Enables rapid cross-platform deployment with OTA updates. |
+| **Routing** | **Expo Router** | File-system based routing for intuitive, web-like navigation structure. |
+| **State** | **Zustand** | Minimalist 2KB boilerplate-free store; simpler than Redux for this scale. |
+| **Maps** | **React Native Maps** | Native map rendering for high-performance coordinate tracking. |
+| **Storage** | **AsyncStorage** | Persists user session and cached emergency contacts. |
+| **Styling** | **StyleSheet** | Zero-runtime overhead compared to CSS-in-JS libraries. |
 
 ---
 

@@ -35,8 +35,8 @@ The system operates on an event-driven model to ensure low-latency processing of
 
 ```mermaid
 graph TD;
-    subgraph Client
-    A[Mobile App] -->|GPS & Sensor Data| B(Firebase Realtime DB);
+    subgraph IoT Node
+    A[ESP32 Hardware] -->|Sensors: Tilt, GPS, IR| B(Firebase Realtime DB);
     end
 
     subgraph Backend
